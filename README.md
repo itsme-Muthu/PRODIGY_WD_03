@@ -2,7 +2,7 @@
 
 <h2>HTML</h2>
 
-**Structure:** Basic HTML setup with a linked CSS file and JavaScript file.
+**Structure:** Basic HTML setup with a linked CSS file and JavaScript file.<br>
 **Game Elements:**
 - A message container to display the game result.
 - A main section containing:
@@ -14,22 +14,21 @@
 
 <h2>CSS</h2>
 
-**Global Styles:** Basic reset for margins and padding, and overall styling for the body. <br>
-
-**Game Board:** Styles for the container and grid layout. <br>
-**Cells:** Styling for the cells, including different colors for players X and O. <br>
-**Buttons:** Styles for the reset and new game buttons. <br>
-**Message and Turn Indicator:** Styles for displaying the winner/tie message and indicating the current turn. <br>
+**Global Styles:** Basic reset for margins and padding, and overall styling for the body. <br><br>
+**Game Board:** Styles for the container and grid layout. <br><br>
+**Cells:** Styling for the cells, including different colors for players X and O. <br><br>
+**Buttons:** Styles for the reset and new game buttons. <br><br>
+**Message and Turn Indicator:** Styles for displaying the winner/tie message and indicating the current turn. <br><br>
 
 <h2>JavaScript</h2>
 
-**Variables:** Selection of game elements, tracking the current turn, and move count. <br>
-**Functions:** <br>
-**resetGame:** Resets the game state and UI. <br>
-**showWinner and showTie:** Display the winner or tie message. <br>
-**ReturnWinner:** Checks for a winner or tie and updates the UI. <br>
-**disableAllGrids and enableAllGrids:** Manage the enable/disable state of cells. <br>
-**Event Listeners:** Handle clicks on cells and buttons to manage game logic and UI updates.
+**Variables:** Selection of game elements, tracking the current turn, and move count. <br><br>
+**Functions:** <br><br>
+**resetGame:** Resets the game state and UI. <br><br>
+**showWinner and showTie:** Display the winner or tie message. <br><br>
+**ReturnWinner:** Checks for a winner or tie and updates the UI. <br><br>
+**disableAllGrids and enableAllGrids:** Manage the enable/disable state of cells. <br><br>
+**Event Listeners:** Handle clicks on cells and buttons to manage game logic and UI updates.<br>
 
 
 ![image](https://github.com/itsme-Muthu/PRODIGY_WD_03/assets/116727546/fbbfca58-e5a1-4e8b-8c5a-4b68cded7967)
