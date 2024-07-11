@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #7A2048;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffffc7;
+    box-shadow: 0 0 16px rgba(0,0,0,.3);
+    font-size: 8vmin;
+    color: #1E2761;
+}
+
+.boxX{
+    color: #1E2761;
+}
+.boxO{
+    color: gold;
+}
+
+#resetButton{
+    padding: 15px;
+    font-size: 20px;
+    background-color: #191913;
+    color: white;
+    border:none;
+    border-radius: 15px;
+}
+
+#newButton{
+    padding: 15px;
+    font-size: 20px;
+    background-color: #191913;
+    color: white;
+    border:none;
+    border-radius: 15px;
+}
+
+#msg{
+    color:#ffffc7;
+    font-size: 5vmin;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
+}
+
+.turn-container{
+    width: 170px;
+    height: 80px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    color: white;
+}
+
+.align{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.turn-container h3{
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: black;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.turn-container .turn-box{
+    border: 3px solid black;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.turn-container .turn-box:nth-child(even){
+    border-right: none;
+    
+}
+
+.bg{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 85px;
+    height: 40px;
+    background-color:#FF2E63;
+    z-index: -1;
+}
+
+.winbg{
+    background-color: #548687;
+    color: white;
+}
