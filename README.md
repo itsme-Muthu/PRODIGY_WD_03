@@ -24,6 +24,7 @@
 
 **Variables:** Selection of game elements, tracking the current turn, and move count. <br><br>
 <h3>Functions:</h3> 
+
 **resetGame:** Resets the game state and UI. <br><br>
 **showWinner and showTie:** Display the winner or tie message. <br><br>
 **ReturnWinner:** Checks for a winner or tie and updates the UI. <br><br>
