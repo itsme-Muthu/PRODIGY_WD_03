@@ -15,6 +15,7 @@
 <h2>CSS</h2>
 
 **Global Styles:** Basic reset for margins and padding, and overall styling for the body. <br>
+
 **Game Board:** Styles for the container and grid layout. <br>
 **Cells:** Styling for the cells, including different colors for players X and O. <br>
 **Buttons:** Styles for the reset and new game buttons. <br>
