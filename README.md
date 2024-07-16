@@ -1,4 +1,4 @@
-# PRODIGY_WD_03 - Prodigy Web Development Internship - Task 03
+# PRODIGY_WD_03 - Prodigy Web Development Internship - Task 03 - Tic-Tac-Toe Web Application
 
 <h2>HTML</h2>
 
